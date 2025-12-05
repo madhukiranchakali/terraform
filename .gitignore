@@ -15,3 +15,16 @@ override.tf.json
 # Provider specific files (if any)
 # For example, if you're using AWS, you might have:
 # .aws/credentials
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
